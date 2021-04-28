@@ -1,73 +1,52 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<title>Comandos</title>
-	<meta charset="utf-8" />
-	<link rel="sortcut icon" href="../../imagens/Lara.ico" type="image/png" />
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="sortcut icon" href="../imagens/Lara.ico" type="image/png" />
+		<link rel="stylesheet" href="../style/style.css">
+		<title>Comandos</title>
 
-	<style type="text/css">
-		body {
-			background-image: url(../../imagens/logo8_20_19132.png);
-			background-position: center center;
-			background-repeat: repeat;
-			background-attachment: fixed;
-
-			background-color: #3D3D3D;
-
-		}
-
-		html {
-			margin: 0;
-			padding: 0;
-			font-family: exo, sans-serif;
-			cursor: url(../../imagens/cursor.cur), default;
-
-		}
-
-		body {
-			font-family: 'Titillium Web';
-		}
-
-		img {
-			padding-top: 0%;
-			width: 300px;
-			height: 300px;
-			float: center;
-		}
-
-		@media only screen and (min-width: 400px) {
-			img {
-				weight: 30%;
+		<style type="text/css">
+			body {
+				background-image: url(../imagens/logo8_20_19132.png);
 			}
-		}
 
-		.w {
-			margin-top: 0;
-			font-size: 100%;
-			font-family: exo, sans-serif;
-			font-weight: bold;
-			color: black;
-		}
+			img {
+				padding-top: 0%;
+				width: 300px;
+				height: 300px;
+				float: center;
+				position: relative;
+				left: 500px;
+			}
 
-		a {
-			text-decoration: none;
-			cursor: url(../../imagens/cursor.cur), default;
-		}
+			@media only screen and (min-width: 400px) {
+				img {
+					height: 30%;
+				}
+			}
 
-		.ex {
-			cursor: url(../../imagens/cursor.cur), default;
-		}
-	</style>
-</head>
+			.w {
+				margin-top: 0;
+				font-size: 100%;
+				font-family: exo, sans-serif;
+				font-weight: bold;
+				color: black;
+			}
 
-<body>
-	<center>
-		<a class="ex" href="../../index.html"><img src="../../imagens/Lara.ico"/>
-  </a>
-  </center>
-  <center>
-		<table class="w" border="1" bgcolor="#29FF7A">
+			table {
+				background-color: #29FF7A;
+				position: relative;
+				left: 300px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<a class="ex" href="../index.html"><img src="../imagens/Lara.ico"/></a>
+		<table class="w" border="1">
 			<tr>
 				<td>Nome do comando</td>
 				<td>Comando</td>
@@ -83,7 +62,7 @@
 				<td>?serverinfo</td>
 				<td>Informa sobre o servidor</td>
 			</tr>
-      <tr>
+			<tr>
 				<td>User info</td>
 				<td>?userinfo</td>
 				<td>Informa sobre o usuário</td>
@@ -313,14 +292,12 @@
 				<td>?dt</td>
 				<td>Cria uma comentário personalizado do Trup no twitter</td>
 			</tr>
-      <tr>
+			<tr>
 				<td>Web site visual</td>
 				<td>?site</td>
 				<td>Mostra o site</td>
 			</tr>
 		</table>
 		<embed src="../../Hmm.mp3" hidden="true" loop="infinite" autostart="TRUE">
-	</center>
-</body>
-
+	</body>
 </html>

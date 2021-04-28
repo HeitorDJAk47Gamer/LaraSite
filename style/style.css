@@ -1,0 +1,68 @@
+body {
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  cursor: url(../imagens/cursor.cur), default;
+
+  background-color: #3D3D3D;
+
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: exo, sans-serif;
+  cursor: url(../imagens/cursor.cur), default;
+
+}
+
+body {
+  font-family: 'Titillium Web';
+}
+
+button {
+  border: none;
+  padding: 15px 30px;
+  background-color: #4D4D4D;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  margin: 8px;
+  outline: none;
+  border-radius: 5px;
+  cursor: url(../imagens/cursor.cur), default;
+}
+
+button.oi:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+
+li {
+  display: inline;
+  position: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: url(../imagens/cursor.cur), default;
+}
+
+.button:hover {
+  font-size: 900%;
+}
+
+li.ai {
+  position: relative;  
+  left: 250px;
+}
+
+li.ei {
+  position: relative;
+  left: 350px;
+}
+
+li.oi {
+  position: relative;
+  left: 450px;
+}
