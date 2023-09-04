@@ -2,22 +2,16 @@ body {
   background-position: center center;
   background-repeat: repeat;
   background-attachment: fixed;
-  cursor: url(../imagens/cursor.cur), default;
-
+  cursor: url(../imagens/cursor.cur);
   background-color: #3D3D3D;
+  font-family: Titillium Web;
 
 }
 
 html {
-  margin: 0;
-  padding: 0;
   font-family: exo, sans-serif;
-  cursor: url(../imagens/cursor.cur), default;
+  cursor: url(../imagens/cursor.cur);
 
-}
-
-body {
-  font-family: 'Titillium Web';
 }
 
 button {
@@ -45,7 +39,7 @@ li {
 
 a {
   text-decoration: none;
-  cursor: url(../imagens/cursor.cur), default;
+  cursor: url(../imagens/cursor.cur);
 }
 
 .button:hover {
