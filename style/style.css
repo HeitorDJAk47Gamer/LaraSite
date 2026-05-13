@@ -5,13 +5,11 @@ body {
   cursor: url(../imagens/cursor.cur);
   background-color: #3D3D3D;
   font-family: sans-serif;
-
 }
 
 html {
   font-family: exo, sans-serif;
   cursor: url(../imagens/cursor.cur);
-
 }
 
 button {
@@ -29,7 +27,7 @@ button {
 
 button.oi:hover {
   transition: 0.3s;
-  transform: scale(1.2);
+  transform: scale(1);
 }
 
 li {
